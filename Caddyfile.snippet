@@ -1,0 +1,5 @@
+# Add this block to /etc/caddy/Caddyfile, then validate and reload Caddy.
+# This file is ready for privileged installation but is not active by itself.
+hello-world.roymeshulam.com {
+	reverse_proxy 127.0.0.1:8001
+}
